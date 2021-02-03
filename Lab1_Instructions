@@ -1,0 +1,47 @@
+Part 1: Opening SPSS
+-        Open SPSS 
+-        Double click “New Dataset” 
+
+Part 2: Creating Scatterplot 
+-        Copy / paste the numbers ONLY (no variable names) from the “Hours” sheet in the Excel file
+-        Click “Variable View” and rename your variables appropriately, change Measure to Scale for Hours and Mark, change Measure to Nominal for Student
+-        Menu > Graphs > Legacy Dialogs > Scatter / Dot 
+-        Click “Simple Scatter”, Click “Define” 
+-        Click “Mark”, then click the arrow under Y-Axis
+-        Click “Hours”, then click the arrow under X-Axis
+-        Click “Titles”, give plot a title
+-        Click OK
+-        Switch to the other SPSS window to see your plot; right click to copy/paste the image
+-        Double click the plot to access other options that you can change
+
+Part 3: Creating line chart
+-        Copy / paste the numbers ONLY (no variable names) from the “COVID19” sheet in the Excel file
+-        Click “Variable View” and rename variables appropriately, change Measure to Scale
+-        Graphs > Chart Builder > OK -        Click “Line”
+-        Drag the line plot to the chart preview
+-        Drag “Day” to X-axis, drag “Cases” to Y-axis
+-        Click OK 
+-        Switch to the other SPSS window to see your plot; right click to copy/paste the image 
+
+Part 4: Creating histogram 
+-        Copy / paste the numbers ONLY (no variable names) from the “Heights” sheet in Excel 
+-        Click “Variable View” and rename variables appropriately, change Measure to Scale
+-        Chart Builder > Histogram
+-        Click “Histogram”
+-        Drag the histogram to the chart preview 
+-        Drag “Height” to X-Axis
+-        Click “Set Parameters”-        Change Bin Sizes to “Custom”, enter 7, click “Continue”, then OK 
+-        Switch to the other SPSS tab to see your plot; right click to copy/paste the image 
+
+Part 5: Obtaining Summary Statistics
+-        Analyze > Compare Means > Means
+-        Click “Height”, then click the arrow
+-        Click “Options”
+-        Double click on any of the ones you want to include; double click to remove
+
+Part 6: Least-squares regression line
+-        Go back to the SPSS window you had before that had the “Hours” sheet from the Excel file
+-        Analyze > Regression > Linear
+-        Click “Mark” then the arrow beside Dependent 
+-        Click “Hours” then the arrow beside Independent
+-        Click OK 
