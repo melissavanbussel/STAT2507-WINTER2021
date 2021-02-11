@@ -1,0 +1,40 @@
+We are now halfway through the semester! Please use the following link to tell me: 
+- 1 thing I should STOP doing during labs
+- 1 thing I should START doing during labs
+- 1 thing I should CONTINUE doing during labs
+https://forms.gle/YhW2zCuJHVNfsr6X7
+
+Part 1: Opening SPSS
+- Open SPSS 
+- Double click “New Dataset” 
+
+Part 2: Generating Sequential IDs 
+- File > New > Syntax
+- Copy paste the following into the new window: 
+
+INPUT PROGRAM. 
+LOOP ID=1 TO 1000. 
+END CASE. 
+END LOOP. 
+END FILE. 
+END INPUT PROGRAM. 
+EXECUTE.
+
+- Run > All 
+
+Part 3: Simulating 1000 coin flips 
+- Make sure you are on the spreadsheet that contains the IDs you just created
+- Transform > Compute Variable 
+- Type “Results” under “Target Variable” 
+- Click in the “Numeric Expression” box
+- Select “Random Numbers” under “Function Group”
+- Double click “Rv.Bernoulli” under “Functions and Special Variables” 
+- Under “Numeric Expression”, replace the “?” with 0.5 
+- Press OK 
+
+Part 4: Finding the relative frequency 
+- Analyze > Descriptive Statistics > Frequencies 
+- Select “Results” as your variable 
+- Click Statistics 
+- Make sure the checkbox beside “Mean” is checked
+- Press Continue, then OK 
