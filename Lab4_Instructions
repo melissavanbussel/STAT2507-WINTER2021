@@ -1,0 +1,32 @@
+Part 1: Opening SPSS 
+- Open SPSS
+- Double click “New Dataset”
+Part 2: Exploring the sampling distribution of Xbar (sample mean)  
+- Copy / paste the data from the Excel spreadsheet, page 1 (not the column names)
+- Go to the Variable View tab on the empty spreadsheet
+- Type two variables under the “Name” column: S5 and S30 
+- Set “Measure” to “Scale” for both 
+- Increase “Width” of both variables to 16
+- Set “Decimals” of both variables to 14
+- Switch back to the Data View tab
+- Graphs > Legacy Dialogs > Histogram
+- Select “S5” for Variable, click OK 
+- Repeat the steps for “S30”
+- Analyze > Compare Means > Means
+- Select both variables for “Dependent List”
+- Click “Options”, check off “Mean” and “Standard deviation”, click “Continue” then click OK 
+
+Part 3: Hypothesis Test for a Population Mean
+- File > New > Data 
+- Copy / paste the data from the Excel spreadsheet, page 2 (not the column names)
+- Go to the Variable View tab on the empty spreadsheet
+- Type under the “Name” column: Drop
+- Set “Measure” to “Scale” 
+- Switch back to the Data View tab
+- Analyze > Compare Means > One-Sample T Test
+- Select Drop for “Test Variable(s)”
+- Set “Test Value” to 4
+- Options > make sure “Confidence Interval Percentage” says 95%, click OK
+
+Part 4: Confidence interval
+- Repeat all the same steps from part 3 (no need to re-enter data, though), but set “Test Value” to 0 this time 
